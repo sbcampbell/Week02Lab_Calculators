@@ -31,7 +31,7 @@ public class AgeCalculatorServlet extends HttpServlet {
             try{
                 int numberAge = Integer.parseInt(userage); 
                 numberAge++;
-                message = "Your age next birthday will be" + numberAge;            
+                message = "Your age next birthday will be " + numberAge;            
         }   catch(NumberFormatException e){
                 message = "You must give your current age.";
             }   

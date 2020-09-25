@@ -21,5 +21,7 @@
         </form>
         
         <p>${output}</p>
+        <br>
+        <a href="arithcalc">Arithmetic Calculator</a>
     
 </html>
